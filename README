@@ -1,4 +1,5 @@
 on - a simple tool that makes it easy to run stuff on another machine.
+Licensed under the terms of the WTFPL (http://en.wikipedia.org/wiki/WTFPL)
 
 'on' works by copying your current directory into a temp directory
 on another machine and running a command on that machine. You use
