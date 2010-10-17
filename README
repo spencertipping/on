@@ -1,0 +1,9 @@
+on - a simple tool that makes it easy to run stuff on another machine.
+
+'on' works by copying your current directory into a temp directory
+on another machine and running a command on that machine. You use
+it like this, for example:
+
+  on my-server ./slow-program
+
+(You would run this from the directory that contained slow-program)
