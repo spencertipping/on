@@ -7,4 +7,4 @@ shift
 
 dirname=$(ssh $hostname mktemp -d '/tmp/on-XXXX')
 rsync -auz . $hostname:$dirname/
-ssh $hostname "$@"
+ssh $hostname "cd $dirname && $@"
